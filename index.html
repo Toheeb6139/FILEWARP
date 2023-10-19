@@ -4,6 +4,217 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>File Warp!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
   </head>
-  <body></body>
+  <body>
+    <div class="contents">
+      <div class="top">
+        <span class="name">
+          <img src="/images/FWLOGO2.png" class="logo" />
+          <h1>File Warp!</h1>
+          <p id="motto">A vast space of files...</p>
+        </span>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="/about.html">About Us</a></li>
+          <li><a href="#subscribe">Subscribe</a></li>
+          <li><a href="#subscribe">Donate</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#subscribe">Upload</a></li>
+          <li><a href="#subscribe">Download</a></li>
+        </ul>
+      </div>
+      <div class="page">
+        <div class="text">
+          <p>
+            "File storage made easy - including powerful features <br />
+            you won't find anywhere else. Whether you're sharing photos, <br />
+            videos, audio or docs, we can simplify your workflow."
+          </p>
+        </div>
+        <div class="boxes">
+          <div class="box1">
+            <img src="/images/SHARE.png" />
+            <p class="hidden-text">
+              Share through email, link or social network. <br />
+              Unlimited ad supported downloads <br />
+              with no wait times.
+            </p>
+          </div>
+          <div class="box2">
+            <img src="/images/STORE.png" />
+            <p class="hidden-text">
+              10GB free. Up to 50GB free with bonuses. <br />
+              Store all your photos, audios and videos.
+            </p>
+          </div>
+          <div class="box3">
+            <img src="/images/ACCESS.png" />
+            <p class="hidden-text">
+              Always have your important files with you. Never forget your work
+              at home.
+            </p>
+          </div>
+        </div>
+        <div class="underbox">
+          <div class="text2">
+            <p>SHARE</p>
+          </div>
+          <div class="text2">
+            <p>STORE</p>
+          </div>
+          <div class="text2">
+            <p>ACCESS</p>
+          </div>
+        </div>
+      </div>
+              <div class="row">
+          <div class="card">
+            <div class="card_side--front"></div>
+          </div>
+          <div class="card"></div>
+          <div class="card"></div>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <div class="text3">
+          <h1>START WARPING FILES!</h1>
+        </div>
+        <div id="subscribe" class="btn">
+          <button type="button" id="logIn">LOGIN</button>
+          <button type="button" id="signUp">SIGN UP</button>
+        </div>
+        <div class="below">
+          <div class="text4">
+            <p>
+              Upload, download, view and organise your files <br />
+              with ease and simplicity using <i>FileWarp!</i> for Android,
+              Blackberry, Windows, iPhone or iPad. <br />
+              Whether it's music collection, home videos, your resume or
+              important work docs, <br />
+              have them in your pocket whenever you need them.
+            </p>
+          </div>
+          <div class="line">
+            <hr />
+          </div>
+          <div class="end">
+            <ul>
+              <li><a href="/about.html">About Us</a></li>
+              <li><a href="#subscribe">Subscribe</a></li>
+              <li><a href="#subscribe">Donate</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer">
+          <footer>
+            <strong><i>FileWarp! </i></strong>&copy; copyright 2023
+          </footer>
+        </div>
+      </div>
+    </div>
+        <!-- Modal -->
+    <div class="modal-container-signUp" id="modal-sign-up">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="modal-content">
+          <p>Register with us to share, support and more</p>
+          <form action="" class="modal-form">
+            <div>
+              <label for="name" id="name">Name</label>
+              <input
+                class="form-input"
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+              />
+            </div>
+            <div>
+              <label for="name" id="email">Email</label>
+              <input
+                class="form-input"
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+              />
+            </div>
+            <div>
+              <label for="password" id="password">Password</label>
+              <input
+                class="form-input"
+                type="text"
+                id="password"
+                placeholder="Enter Password"
+              />
+            </div>
+            <div>
+              <label for="password2" id="name">Confirm Password</label>
+              <input
+                class="form-input"
+                type="password"
+                id="password2"
+                placeholder="Confirm Password"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="modal-container-logIn" id="modal-log-in">
+      <div class="modal">
+        <button class="close-btn" id="close">
+          <i class="fa fa-times"></i>
+        </button>
+        <div class="modal-header">
+          <h3>Log In</h3>
+        </div>
+        <div class="modal-content">
+          <p>Continue to share, there is love</p>
+          <form action="" class="modal-form">
+            <div>
+              <label for="email" id="email">Email</label>
+              <input
+                class="form-input"
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+              />
+            </div>
+            <div>
+              <label for="password" id="password">Password</label>
+              <input
+                class="form-input"
+                type="text"
+                id="password"
+                placeholder="Enter Password"
+              />
+            </div>
+            <input type="submit" value="Submit" class="submit-btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+
+  </body>
 </html>
