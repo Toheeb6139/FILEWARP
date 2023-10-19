@@ -19,8 +19,6 @@
 #motto {
   font-size: 17px;
 }
-.navbar {
-}
 .logo {
   height: 5rem;
   cursor: pointer;
@@ -153,10 +151,7 @@
   width: 100%;
 }
 .footer {
-  /* padding: 20px; */
   padding-bottom: 20px;
-
-  /* margin-top: 20px; */
   color: #fff;
   background-color: rgb(31, 31, 119);
   text-align: center;

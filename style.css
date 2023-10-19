@@ -27,8 +27,6 @@ html {
 #motto {
   font-size: 17px;
 }
-.navbar {
-}
 .logo {
   height: 5rem;
   cursor: pointer;
@@ -211,8 +209,6 @@ button {
 .end ul li:hover::after {
   width: 100%;
 }
-.box1:hover {
-}
 .box1 img:hover {
   opacity: 10%;
 }
@@ -251,14 +247,8 @@ button {
   visibility: visible;
   opacity: 250%;
 }
-.box1:hover .hidden-text::after {
-}
-
 .footer {
-  /* padding: 20px; */
   padding-bottom: 20px;
-
-  /* margin-top: 20px; */
   color: #fff;
   background-color: rgb(31, 31, 119);
   text-align: center;
@@ -309,7 +299,6 @@ button {
 
 .modal-header h3 {
   margin: 0;
-  /* border-bottom: 1px solid #fff; */
 }
 
 .modal-content {
